@@ -27,8 +27,7 @@ public class AWSNotifier implements NotificationService {
 
     private void sendNotification(String topicArn, String subject, String message) {
         // Example code might look like this:
-       /*
-        SNSMobileClient snsClient = new SNSMobileClient();
+       /*SNSMobileClient snsClient = new SNSMobileClient();
         PublishRequest request = new PublishRequest()
                 .withTopicArn(topicArn)
                 .withSubject(subject)
